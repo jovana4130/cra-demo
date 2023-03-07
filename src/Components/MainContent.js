@@ -1,3 +1,5 @@
+import './MainContent.css';
+
 export const MainContent = () => {
     const divItems = [
         {title: 'Star Wars: The Phantom Menace', paragraph: 'Set 32 years before the original trilogy, during the era of the Galactic Republic, the plot follows Jedi Master Qui-Gon Jinn and his apprentice Obi-Wan Kenobi as they try to protect Queen Padmé Amidala of Naboo in hopes of securing a peaceful end to an interplanetary trade dispute. '},
@@ -15,7 +17,7 @@ export const MainContent = () => {
                     <h3 className="title">{item.title}</h3>
                     <p className="paragraph">{item.paragraph}</p>
                 </div>
-            ))}
+            ))};
         </div>
-    )
-}
+    );
+};
