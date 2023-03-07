@@ -5,10 +5,11 @@ import {MainContent} from './Components/MainContent';
 function App() {
   return (
     <div className="App">
-    <Header></Header>
+      <Header></Header>
       <MainContent></MainContent>
+      <Footer></Footer>
     </div>
   );
-}
+};
 
 export default App;
