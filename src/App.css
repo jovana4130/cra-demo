@@ -37,16 +37,16 @@
   }
 } */
 
-.header{
-  background-color: tomato;
+.header {
+  background-color: rgb(185, 223, 15);
   padding: 0.4em;
   margin-bottom: 3em;
   color: white;
   text-align: center;
 }
 
-.item{
-  background-color:gray;
+.item {
+  background-color:rgb(101, 125, 129);
   width: 80%;
   margin-bottom: 3em;
   text-align: justify;
